@@ -29,15 +29,24 @@ form input, form button {
     padding: 0.5rem;
     font-size: 2.5rem;
     border: none;
+    background-color: white;
+}
+
+form input {
+    /* background-color: rgba(0, 0, 0, 0.4); */
     background: white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 form button {
     /* color: #fda085; */
     color: #673AB7;
-    background: white;
+    background-color: white;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 form button:hover {
     /* background-color: #fda085; */
@@ -58,11 +67,11 @@ form button:hover {
 
 .todo {
     margin: 0.5rem;
-    background-color: rgba(0, 0, 0, 0.4);
-    /* background: white; */
-    color: white;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    background: white;
+    color: black;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,12 +125,15 @@ select {
     appearance: none;
     outline: none;
     border: none;
+    border-radius: 5px;
 }
 
 .select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 select {
